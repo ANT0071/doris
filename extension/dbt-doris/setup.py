@@ -38,8 +38,8 @@ setup(
     include_package_data=True,
     install_requires=[
         "dbt-core>={}".format(dbt_core_version),
-        "mysql-connector-python>=8.0.0,<8.3",
-        "urllib3~=1.0",
+        "mysql-connector-python>=8.0.0,<9.5",
+        "urllib3~=2.6",
     ],
     python_requires=">=3.9",
 )
